@@ -5,25 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Kyle's Portfolio</title>
-    <link rel="stylesheet" href="resources/css/style.css"/>
+    <link rel="stylesheet" href="./resources/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./resources/css/style.css"/>
+</head>
 </head>
 
 <body> 
-    <table style="width: 100%;" cellpadding="0px" cellspacing="0px">
-            <tr id="headerBar">
-                <td id="td1"><img id="tekLeft" src="./resources/image/TEKSystemsLogo.png" height="30"/></td>
-                <td id="td1"><h1 id="header1">Portfolio of Kyle Cuccatti</h1></td>
-                <td id="td1"><img id="tekRight" src="./resources/image/TEKSystemsLogo.png" height="30"/></td>
-            </tr>
-    </table>
+        <div class="container-fluid">
+                <div class="row mt-4"> 
+                    <div class="col-4 text-center mt-2">
+                        <img src="resources/image/TEKSystemsLogo.png" width=40%;>
+                    </div>
+                    
+                    <div class="col-4 text-center mt-1">
+                        <h1>Kyle Cuccatti's Portfolio</h1>
+                    </div>
         
-    <div class="menu">
-        <a href="index.html">About</a>&nbsp;
-        <a href="contact.html">Contact</a>&nbsp;
-        <a href="gallery.html">Gallery</a>
-    </div>
-    
-    <hr>
+                    <div class="col-4 text-center">
+                        <img src="resources/image/TEKSystemsLogo.png" width=40%;>
+                    </div>
+                </div>
+        
+                <div class="row">
+                    <div class="col-12 text-center text-warning">
+                        <a href="about.html">About</a>&nbsp;
+                        <a href="contact.html">Contact</a>&nbsp;
+                        <a href="gallery.html">Gallery</a>
+                        <hr>
+                    </div> 
+                </div>
+        </div>
+        
+             <br>
 
     <div class="grid">
         <div><img id="invadersPhoto" src="./resources/image/SpaceInvaders.jpg" alt="Invaders"></div>

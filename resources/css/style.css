@@ -3,13 +3,13 @@ body {
 }
 
 a:link {
-    color: green; 
+    color: yellow; 
     background-color: transparent; 
     text-decoration: none;
 }
 
 a:visited {
-    color: yellow;
+    color: rgb(240, 128, 9);
     background-color: transparent;
     text-decoration: none;
 }
